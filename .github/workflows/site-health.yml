@@ -29,7 +29,7 @@ jobs:
           MAX_MS_APP: "1500"
           RETRIES: "3"
           TIMEOUT: "5"
-        run: python monitor/check.py
+        run: python check.py
 
 
       - name: Notify Telegram on failure
